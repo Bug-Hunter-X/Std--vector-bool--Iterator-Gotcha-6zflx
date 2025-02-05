@@ -1,0 +1,1 @@
+Several ways to solve it, one is to use a different container like `std::vector<int>` that still performs bitwise operations. A second is to use a different algorithm like `std::for_each` that is not affected by the iterator type.  Another is to replace the std::vector<bool> with a different data structure better suited for bitwise operations. 
